@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	char strExp[]="3+4";
+	int z=strExp[0]-'0';
+	int y=strExp[2]-'0';
+	int sum=z+y;
+	printf("sum=%d\n",sum);
+	return 0;
+	
+}
